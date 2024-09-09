@@ -1,0 +1,76 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    background-color: brown;
+    margin: 0;
+}
+
+#container{
+
+    height: 100%;
+    background-color: aquamarine;
+}
+
+    #topo{
+
+        background-color: brown;
+        height: 20%;
+        display: flex;
+
+    }
+
+        #topo-esquerda{
+
+            background-color: rosybrown;
+            height: 100%;
+            width: 25%;
+
+        }
+
+        #topo-meio{
+
+            background-color: purple;
+            height: 100%;
+            width: 50%;
+
+        }
+
+        #topo-direita{
+
+            background-color: chocolate;
+            height: 100%;
+            width: 25%;
+
+        }
+
+    #meio{
+
+        background-color: gray;
+        height: 60%;
+        display: flex;
+        justify-content: space-between  ; 
+        align-items: center;
+        flex-direction: column;
+        
+        
+
+    }
+
+        .buttons{
+
+            height: 10%;
+            width: 10%;
+        }
+
+    #baixo{
+
+        background-color: blue;
+        height: 20%;
+
+    }

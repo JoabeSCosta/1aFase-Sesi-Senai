@@ -1,0 +1,36 @@
+- Declaração de Variáveis
+- Entrada de Dados
+- Processamento (Cálculos / Lógica)
+- Saída de Dados
+
+    cadeia -> literal (letras, palavras, símbolos)
+    inteiro -> número inteiro (Números inteiro)
+    real -> número real (Números decimais)
+    logico -> lógico (Verdadeiro ou Falso)
+ 
+>>>> Declaração de Variáveis <<<<
+
+    <tipo> nome
+
+    cadeia nomeUsuario
+    cadeia nomeEmpresa
+    inteiro idadePessoa	
+
+>>>> Entrada de Dados <<<<
+
+    escreva("Digite o seu nome: ")
+    leia(nomePessoa)
+
+>>>> Processamento <<<<
+
+    resultado = numeroUm + numeroDois
+    media = nota * peso
+    mediaFinal = (notaUm + notaDois + notaTres) / totalnotas
+    percentual = 5 + 2
+
+>>>> Saída de Dados <<<<
+
+	escreva("O programa encerrou!")
+        escreva("Você foi reprovado")
+        escreva(resultado)
+        escreva("O resultado foi: " , resultado)

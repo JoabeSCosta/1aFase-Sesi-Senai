@@ -1,0 +1,60 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+}
+
+#container{
+
+    height: 100%;
+    display: flex;
+}
+
+#login{
+
+    height: 100%;
+    width: 35%;
+    background-color: white;
+    
+}
+    #topo{
+        
+        height: 20%;
+        background-color: blue;
+
+    }
+
+    #meio-um{
+        
+        height: 10%;
+        background-color: blueviolet;
+
+    }
+
+    #meio-dois{
+        
+        height: 55%;
+        background-color: brown;
+
+    }
+
+    #baixo{
+        
+        height: 15%;
+        background-color: aqua;
+
+    }
+
+#learnmore{
+
+    height: 100%;
+    width: 65%;
+    background-image: url(./02fundobear.png);
+    background-size: 100%;
+}

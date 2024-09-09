@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - Login & Cadastro</title>
+</head>
+<body bgcolor="#81d8d0">
+    
+    <div id="divCadastro">
+<center>
+    <hr size="5" color="white" width="99%" align="center" noshade>
+    <label style="color:#FFF; font-size: 50px; text-align: left;">Cadastro</label><br><br><br>
+    <input id="inptCadastroUser" placeholder="username">
+    <input id="inptCadastroPass" placeholder="password" type="password">
+    <input id="inptCadastroEmail" placeholder="email"><br><br>
+    <button onclick="Cadastrar()" style="background-color: #d88189; color: #FFF; border: 0; cursor: pointer; ">Cadastrar</button>
+    <button onclick="Pesquisar()" style="background-color: #d88189; color: #FFF; border: 0; cursor: pointer;">Pesquisar</button>
+    <button onclick="Editar()" style="background-color: #d88189; color: #FFF; border: 0; cursor: pointer;">Editar</button>
+    <button onclick="Excluir()" style="background-color: #d88189; color: #FFF; border: 0; cursor: pointer;">Excluir</button>
+    <button onclick="Listar()" style="background-color: #d88189; color: #FFF; border: 0; cursor: pointer;">Listar</button>
+    <br><br>
+</center>
+
+    </div>
+
+
+
+    <div id="divLogin">
+<center>
+    <hr size="5" color="white" width="99%" align="center" noshade>
+    <label style="color:#FFF; font-size: 50px; text-align: left;">Login</label><br><br><br>
+    <input id="inptLoginUser" placeholder="username">
+    <input id="inptLoginPass" placeholder="password" type="password"><br><br>
+    <button onclick="Login()" style="background-color: #d88189; color: #FFF; border: 0; cursor: pointer;">Login</button>
+    <br><br>
+</center>
+
+    </div>
+
+
+
+    <div id="divLista">
+        <center>
+            <hr size="5" color="white" width="99%" align="center" noshade>
+            
+            <label style="color:#FFF; font-size: 50px; text-align: left;">Lista</label><br><br><br>
+            <label id="lblLista" style="color:#FFF;">Nenhum dado de usuário cadastrado!</label>
+        </center>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

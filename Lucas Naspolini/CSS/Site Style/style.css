@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Fonte do Site";
+    src: url(Daughter\ of\ Fortune.ttf);
+}
+
+body{
+    
+    background-image: url(fundo-fotografico-em-tecido-textura-vermelho-2-60x1-50m-fundo-fotografico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    color:	white;
+    font-size: 45px;
+    font-family: "Fonte do Site";
+    
+}
+#lblNome{
+    
+    color: 	white;
+    font-weight: bolder;
+}
+#lblSenha{
+    color: white;
+    font-size: 25px;
+}
+.inputs{
+    border: solid wheat 2px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    background-color: #1a9797;
+    color:white;
+    text-align: center;
+}
+.inputs::placeholder{
+    color: white;
+    
+}
+.inputs:focus{
+    outline: none;
+}
+.buttons{
+    background-color: 	#1a9797;
+    border-radius: 5px;
+    border: 3px solid white;
+    color: white;
+    font-size: 20px;
+    opacity: 90%;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color:  #1a9797;
+    color: white;
+    scale: 1.1;
+    transition: 0.2s;
+    margin-right: 5px;
+}
